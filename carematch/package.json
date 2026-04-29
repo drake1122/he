@@ -1,0 +1,17 @@
+{
+  "name": "carematch",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "backend",
+    "web",
+    "admin",
+    "app-patient",
+    "app-caregiver"
+  ],
+  "scripts": {
+    "dev:backend": "npm --workspace backend run dev",
+    "build:backend": "npm --workspace backend run build",
+    "test:backend": "npm --workspace backend run test"
+  }
+}
